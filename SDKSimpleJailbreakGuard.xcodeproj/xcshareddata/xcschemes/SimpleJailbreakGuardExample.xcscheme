@@ -16,8 +16,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E10000000000000000000015"
-               BuildableName = "SDKSimpleJailbreakGuardExample.app"
-               BlueprintName = "SDKSimpleJailbreakGuardExample"
+               BuildableName = "SimpleJailbreakGuardExample.app"
+               BlueprintName = "SimpleJailbreakGuardExample"
                ReferencedContainer = "container:SDKSimpleJailbreakGuard.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,8 +45,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E10000000000000000000015"
-            BuildableName = "SDKSimpleJailbreakGuardExample.app"
-            BlueprintName = "SDKSimpleJailbreakGuardExample"
+            BuildableName = "SimpleJailbreakGuardExample.app"
+            BlueprintName = "SimpleJailbreakGuardExample"
             ReferencedContainer = "container:SDKSimpleJailbreakGuard.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -62,8 +62,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E10000000000000000000015"
-            BuildableName = "SDKSimpleJailbreakGuardExample.app"
-            BlueprintName = "SDKSimpleJailbreakGuardExample"
+            BuildableName = "SimpleJailbreakGuardExample.app"
+            BlueprintName = "SimpleJailbreakGuardExample"
             ReferencedContainer = "container:SDKSimpleJailbreakGuard.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

@@ -64,6 +64,7 @@ struct ContentView: View {
             }
             .navigationTitle("Jailbreak Guard")
         }
+        .navigationViewStyle(.stack)
     }
 
     private func scan() {
