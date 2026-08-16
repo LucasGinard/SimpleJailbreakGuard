@@ -1,13 +1,29 @@
 # ``SDKSimpleJailbreakGuard``
 
-<!--@START_MENU_TOKEN@-->Summary<!--@END_MENU_TOKEN@-->
+Detecta indicios configurables de jailbreak en iPhone y iPad.
 
-## Overview
+## Uso
 
-<!--@START_MENU_TOKEN@-->Text<!--@END_MENU_TOKEN@-->
+Seleccioná un perfil y ejecutá el análisis de forma asíncrona:
+
+```swift
+let report = await JailbreakGuard(configuration: .fridaOnly).scan()
+
+if report.isJailbroken {
+    print(report.findings)
+}
+```
+
+Cada ``JailbreakCheckResult`` diferencia entre una detección, un resultado limpio,
+un check omitido y uno que no pudo evaluarse.
 
 ## Topics
 
-### <!--@START_MENU_TOKEN@-->Group<!--@END_MENU_TOKEN@-->
+### Análisis
 
-- <!--@START_MENU_TOKEN@-->``Symbol``<!--@END_MENU_TOKEN@-->
+- ``JailbreakGuard``
+- ``JailbreakGuardConfiguration``
+- ``JailbreakCheck``
+- ``JailbreakReport``
+- ``JailbreakCheckResult``
+- ``JailbreakFinding``
